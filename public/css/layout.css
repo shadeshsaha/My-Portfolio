@@ -212,17 +212,17 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  background: #fff;
+  background: #f4f4fa;
 }
 
-#about a,
+/* #about a,
 #about a:visited {
   color: #fff;
 }
 #about a:hover,
 #about a:focus {
   color: #eb9a85;
-}
+} */
 
 #about h2 {
   font: 22px/30px "opensans-bold", sans-serif;
@@ -274,6 +274,15 @@ ul#nav li.current a {
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
+}
+#about h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#about h1 span {
+  border-bottom: 3px solid #eb9a85;
+  padding-bottom: 6px;
 }
 
 /* ------------------------------------------------------------------ */

@@ -4,7 +4,7 @@
     "occupation": "Junior Software Engineer || Full-Stack Developer || MERN Stack Developer",
     "description": "Eat, Sleep, Code, Repeat",
     "image": "profilepic.jpg",
-    "bio": "Hello dear! I'm S.M.Abtahi Noor. I'm a student of Class VIII. I study at Dhaka Residential Model College. Besides my study, I'm working as Frontend Web Developer. I'm an Artist .Painting is my hobby. Otherwise, I have been receiving awards from different places since 2013.I got two International Award.One of them,I got prizes from Japan in 2013 at painting.Other,I got prizes from Turkey in 2019 at painting.I stayed Turkey for seven days to met the Turkey's President Recep Tayyip Erdoğan.I have more than 60 certificates and medals.I am very happy to get many awards and I wanna to work for the country and the people of the country when I grow up.",
+    "bio": "Hi, I'm Shadesh Ram Gour and I'm a Junior Software Engineer in MERN stack. I'm an independent and self-motivated quick learner and always love to learn new technologies. I'm a hard-working person and very passionate about my work. Always eager to learn something new everyday.",
     "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
     "email": "swadeshsaha408@gmail.com",
     "phone": "+88015XXXXXXXX",
@@ -194,12 +194,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "No doubt you're a great person. You have strong command on your skills too. I will definitely work with you in future.",
-        "user": "Asif,Pakistan"
+        "text": "No doubt you're a great person. You have a strong command of your skills too. Whenever I need your help during development days, you're there with me. I had solved too many critical problems with you and realized you're the very understandable person I've ever met. I will definitely work with you in the future. See you soon buddy",
+        "user": "Mostofa Kabir, Dhaka, Bangladesh"
       },
       {
-        "text": "@Abtahi did a great job.He continuously communicated with me during the development process to make sure we on the same page.Excellent communication and development work.He delivered well organized and clean code.I will definitely use his service again in the future",
-        "user": "preet395,United States"
+        "text": "Shadesh, you did a great job. You're continuously communicated with me during the development days to make sure we on the same page. Excellent communication and development skills you have. You've delivered well-organized and clean code to me. I will definitely use his service again in the future. Best of luck.",
+        "user": "Zahidul Islam, Dhaka, Bangladesh"
       }
     ]
   }

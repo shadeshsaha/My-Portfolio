@@ -1,3 +1,4 @@
+import emailjs from "emailjs-com";
 import React, { useState } from "react";
 
 const Contact = ({ data }) => {
@@ -5,6 +6,7 @@ const Contact = ({ data }) => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [success, setSuccess] = useState(false);
 
   if (data) {
     var contactName = data.name;
@@ -16,16 +18,30 @@ const Contact = ({ data }) => {
     var contactEmail = data.email;
   }
 
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
-  };
+  // const submitForm = () => {
+  //   window.open(
+  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
+  //       subject
+  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+  //       email
+  //     )}): ${encodeURIComponent(message)}`
+  //   );
+  // };
 
+  // Send Email
+  const sendEmail = e => {
+    e.preventDefault();
+    emailjs.sendForm('gmail', 'My Portfolio', e.target, 'user_1iGC56yYxOO8v6HRADL1i')
+    .then((result) => {
+      if (result.text === 'OK') {
+          setSuccess(true);
+          e.target.reset();
+      }
+  }, (error) => {
+      console.log(error.text);
+  });
+  }
+  
   return (
     <section id="contact">
       <div className="row section-head" data-aos="fade-right" data-aos-duration="1500">
@@ -38,7 +54,7 @@ const Contact = ({ data }) => {
 
       <div className="row" data-aos="fade-right">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form onSubmit={sendEmail}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -98,7 +114,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                <button type="submit" value="send email" className="submit">
                   Submit
                 </button>
               </div>
