@@ -1,0 +1,206 @@
+{
+  "main": {
+    "name": "Shadesh Ram Gour",
+    "occupation": "Junior Software Engineer || Full-Stack Developer || MERN Stack Developer",
+    "description": "Eat, Sleep, Code, Repeat",
+    "image": "profilepic.jpg",
+    "bio": "Hello dear! I'm S.M.Abtahi Noor. I'm a student of Class VIII. I study at Dhaka Residential Model College. Besides my study, I'm working as Frontend Web Developer. I'm an Artist .Painting is my hobby. Otherwise, I have been receiving awards from different places since 2013.I got two International Award.One of them,I got prizes from Japan in 2013 at painting.Other,I got prizes from Turkey in 2019 at painting.I stayed Turkey for seven days to met the Turkey's President Recep Tayyip Erdoğan.I have more than 60 certificates and medals.I am very happy to get many awards and I wanna to work for the country and the people of the country when I grow up.",
+    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "email": "swadeshsaha408@gmail.com",
+    "phone": "+88015XXXXXXXX",
+    "address": {
+      "street": "Jatrabari, Matuail - 1362",
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "website": "",
+    "resumedownload": "https://drive.google.com/file/d/1v5H7lTHWuJ-aobR64bA7wIlBZTK-jc3u/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/shadesh.saha.5",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shadesh-saha/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/shadesh_saha/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/shadeshsaha",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Proficiency In Programming Stack",
+    "education": [
+      {
+        "university": "Jahangirnagar University, Savar, Dhaka",
+        "degree": "MSc in Computer Science",
+        "graduated": "2021 - Present"
+      },
+      {
+        "university": "Daffodil International University, Dhaka",
+        "degree": "BSc in Computer Science and Engineering",
+        "graduated": "2017 - 2021"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "CSS3",
+        "level": "80%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "85%"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "50%"
+      },
+      {
+        "name": "Material UI",
+        "level": "45%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "40%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "60%"
+      },
+      {
+        "name": "ExpressJS",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "65%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "55%"
+      },
+      {
+        "name": "GitHub",
+        "level": "90%"
+      },
+      {
+        "name": "REST API",
+        "level": "60%"
+      },
+      {
+        "name": "Netlify",
+        "level": "70%"
+      },
+      {
+        "name": "Firebase",
+        "level": "45%"
+      },
+      {
+        "name": "Heroku",
+        "level": "40%"
+      },
+      {
+        "name": "Chrome Dev Tool",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "image": "amazon.png",
+        "projectTitle": "Amazon Tripmate",
+        "projectTools": "HTML5, Tailwind CSS, JavaScript",
+        "liveDemo": "https://amazon-store-phero.netlify.app/",
+        "github": "https://github.com/shadeshsaha/ranga-store-fix",
+        "category": "Vanila JS"
+      },
+      {
+        "image": "minister.png",
+        "projectTitle": "Famous Prime Minister In The World",
+        "projectTools": "JavaScript, React, React Routing, React Props, JSX, State, Hook, Custom API, React-Fontawesome, Netlify",
+        "liveDemo": "https://worlds-prime-minister.netlify.app/",
+        "github": "https://github.com/shadeshsaha/the-superhero-direction",
+        "category": "ReactJS"
+      },
+      {
+        "image": "course-online.png",
+        "projectTitle": "Online Course Academy",
+        "projectTools": "React Bootstrap, Material UI, Tailwind, React Router, Custom Hook, Context API, Netlify",
+        "liveDemo": "https://online-course-academy.netlify.app/",
+        "github": "https://github.com/shadeshsaha/review-website",
+        "category": "ReactJS"
+      },
+      {
+        "image": "yoga.png",
+        "projectTitle": "Kindness Yoga",
+        "projectTools": "CSS3, React, React Auth, React Private Route, Firebase Auth, Firebase Hosting",
+        "liveDemo": "https://kindness-yoga.web.app/",
+        "github": "https://github.com/shadeshsaha/healthcare-related-website",
+        "category": "ReactJS"
+      },
+      {
+        "image": "bikers-paradise.png",
+        "projectTitle": "Bikers' Paradise",
+        "projectTools": "React, React Router, React Private Route, React Hook, Admin Panel, MongoDB, NodeJS, ExpressJS, Firebase Auth, Firebase Hosting",
+        "liveDemo": "https://bikers-paradise.web.app/",
+        "github": "https://github.com/shadeshsaha/niche-website-client-side",
+        "category": "Full-Stack(MERN)"
+      },
+      {
+        "image": "honda-cbr.png",
+        "projectTitle": "Honda CBR 300R",
+        "projectTools": "HTML5, Vanila CSS, Vanila JavaScript",
+        "liveDemo": "https://honda-cbr-4568.netlify.app/",
+        "github": "https://github.com/shadeshsaha/honda-cbr",
+        "category": "HTML5, CSS3"
+      },
+      {
+        "image": "apple-mac.png",
+        "projectTitle": "Apple MacBook Pro",
+        "projectTools": "HTML5, Vanila CSS, Vanila JS",
+        "liveDemo": "https://apple-i-mac-pro.netlify.app/",
+        "github": "https://github.com/shadeshsaha/mac-book-pro",
+        "category": "HTML5, CSS3"
+      },
+      {
+        "image": "responsive-football.png",
+        "projectTitle": "Responsive Football Website",
+        "projectTools": "HTML5, Vanila CSS",
+        "liveDemo": "https://shadeshsaha.github.io/responsive-football/",
+        "github": "https://github.com/shadeshsaha/responsive-football",
+        "category": "HTML5, CSS3"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "No doubt you're a great person. You have strong command on your skills too. I will definitely work with you in future.",
+        "user": "Asif,Pakistan"
+      },
+      {
+        "text": "@Abtahi did a great job.He continuously communicated with me during the development process to make sure we on the same page.Excellent communication and development work.He delivered well organized and clean code.I will definitely use his service again in the future",
+        "user": "preet395,United States"
+      }
+    ]
+  }
+}
