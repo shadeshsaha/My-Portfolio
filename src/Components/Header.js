@@ -1,10 +1,11 @@
 import React from "react";
 import { MdFileDownload } from 'react-icons/md';
+import Typical from 'react-typical';
 
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
-    var occupation = data.occupation;
+    // var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
     var networks = data.social.map(function (network) {
@@ -70,7 +71,22 @@ const Header = ({ data }) => {
             <h1> {name}</h1>
           </h1>
           <h3>
-            <span>{occupation}</span> <br/>{description}
+            {/* <span>{occupation}</span>  */}
+            <span>
+              <Typical
+                steps={[
+                  'Junior Software Engineer',
+                  2000, 
+                  'Junior Full-Stack Developer',
+                  2000,
+                  "Junior MERN Stack Developer",
+                  2000
+                ]}
+                loop={Infinity}
+                wrapper="span"
+              />
+            </span> 
+            <br/>{description}
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
