@@ -1,3 +1,3 @@
 # My Resume
 
-Live Site Link : https://smabtahinoor.vercel.app
+Live Site Link : https://shadesh-portfolio.netlify.app/
