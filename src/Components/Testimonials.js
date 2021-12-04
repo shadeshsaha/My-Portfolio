@@ -7,7 +7,7 @@ const Testimonials = ({ data }) => {
         <li key={testimonials.user} data-aos="flip-right">
           <blockquote>
             <p>{testimonials.text}</p>
-            <cite><strong>{testimonials.user}</strong></cite>
+            <cite>{testimonials.user}</cite>
           </blockquote>
         </li>
       );

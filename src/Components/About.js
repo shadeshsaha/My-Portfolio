@@ -6,13 +6,11 @@ const About = ({ data}) => {
     var name = data.name;
     var profilepic = "images/" + data.image;
     var bio = data.bio;
-    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
     var country = data.address.country;
     var phone = data.phone;
     var email = data.email;
-    // var resumeDownload = data.resumedownload;
   }
 
   return (
@@ -22,11 +20,10 @@ const About = ({ data}) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Shadesh's Profile Pic"
+            alt="Abtahi's Profile Pic"
             data-aos="zoom-out-right" data-aos-duration="1500"
           />
         </div>
-
         <div className="bg-white p-12 box-border rounded-xl shadow-xl nine columns main-col" data-aos="zoom-out-left" data-aos-duration="1500">
           <h1>
             <span>About Me</span>
@@ -58,7 +55,7 @@ const About = ({ data}) => {
                 <a href="http://www.facebook.com/shadesh.saha.5" target="_blank" rel="noopener noreferrer"><BsFacebook className="text-gray-500 text-5xl hover:text-blue-500 transition duration-200" /></a>
                 <a href="https://www.instagram.com/shadesh_saha/" target="_blank" rel="noopener noreferrer"><BsInstagram className="text-gray-500 text-5xl hover:text-red-500 transition duration-200" /></a>
                 <a href="https://www.linkedin.com/in/shadesh-saha/" target="_blank" rel="noopener noreferrer"><BsLinkedin className="text-gray-500 text-5xl hover:text-blue-500 transition duration-200" /></a>
-                <a href="https://github.com/shadeshsaha" target="_blank" rel="noopener noreferrer"><BsGithub className="text-gray-500 text-5xl hover:text-dark-500 transition duration-200" /></a>
+                <a href="https://github.com/shadeshsaha" target="_blank" rel="noopener noreferrer"><BsGithub className="text-gray-500 text-5xl hover:text-gray-500 transition duration-200" /></a>
               </div>
             </div>
           </div>
@@ -69,3 +66,5 @@ const About = ({ data}) => {
 };
 
 export default About;
+
+// 100 = 5

@@ -1,4 +1,3 @@
-import emailjs from "emailjs-com";
 import React, { useState } from "react";
 
 const Contact = ({ data }) => {
@@ -6,42 +5,27 @@ const Contact = ({ data }) => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [success, setSuccess] = useState(false);
 
   if (data) {
     var contactName = data.name;
     var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
-    var country = data.address.country;
+    var zip = data.address.zip;
     var phone = data.phone;
     var contactEmail = data.email;
   }
 
-  // const submitForm = () => {
-  //   window.open(
-  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
-  //       subject
-  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-  //       email
-  //     )}): ${encodeURIComponent(message)}`
-  //   );
-  // };
+  const submitForm = () => {
+    window.open(
+      `mailto:${contactEmail}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+        email
+      )}): ${encodeURIComponent(message)}`
+    );
+  };
 
-  // Send Email
-  const sendEmail = e => {
-    e.preventDefault();
-    emailjs.sendForm('gmail', 'My Portfolio', e.target, 'user_1iGC56yYxOO8v6HRADL1i')
-    .then((result) => {
-      if (result.text === 'OK') {
-          setSuccess(true);
-          e.target.reset();
-      }
-  }, (error) => {
-      console.log(error.text);
-  });
-  }
-  
   return (
     <section id="contact">
       <div className="row section-head" data-aos="fade-right" data-aos-duration="1500">
@@ -54,7 +38,7 @@ const Contact = ({ data }) => {
 
       <div className="row" data-aos="fade-right">
         <div className="eight columns">
-          <form onSubmit={sendEmail}>
+          <form onSubmit={submitForm}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -114,7 +98,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button type="submit" value="send email" className="submit">
+                <button onClick={submitForm} type="submit" className="submit">
                   Submit
                 </button>
               </div>
@@ -138,7 +122,7 @@ const Contact = ({ data }) => {
               <br />
               <br />
               {street} <br />
-              {city}, {state} {country}
+              {city}, {state} {zip}
               <br />
               <span>{phone}</span>
             </p>

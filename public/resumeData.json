@@ -5,7 +5,6 @@
     "description": "Eat, Sleep, Code, Repeat",
     "image": "profilepic.jpg",
     "bio": "Hi, I'm Shadesh Ram Gour and I'm a Junior Software Engineer in MERN stack. I'm an independent and self-motivated quick learner and always love to learn new technologies. I'm a hard-working person and very passionate about my work. Always eager to learn something new everyday.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
     "email": "swadeshsaha408@gmail.com",
     "phone": "+88015XXXXXXXX",
     "address": {
@@ -54,152 +53,173 @@
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "level": "90%"
+        "name": "React",
+        "icon": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
       },
       {
-        "name": "CSS3",
-        "level": "80%"
+        "name": "Node JS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
       },
       {
-        "name": "Bootstrap",
-        "level": "85%"
-      },
-      {
-        "name": "Tailwind CSS",
-        "level": "50%"
-      },
-      {
-        "name": "Material UI",
-        "level": "45%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "70%"
-      },
-      {
-        "name": "Python",
-        "level": "40%"
-      },
-      {
-        "name": "ReactJS",
-        "level": "60%"
-      },
-      {
-        "name": "ExpressJS",
-        "level": "50%"
+        "name": "Express",
+        "icon": "https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png"
       },
       {
         "name": "MongoDB",
-        "level": "65%"
+        "icon": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
       },
       {
-        "name": "NodeJS",
-        "level": "55%"
+        "name": "HTML",
+        "icon": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
       },
       {
-        "name": "GitHub",
-        "level": "90%"
+        "name": "CSS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
       },
       {
-        "name": "REST API",
-        "level": "60%"
+        "name": "Javascript",
+        "icon": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
       },
       {
-        "name": "Netlify",
-        "level": "70%"
+        "name": "Tailwind CSS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
       },
       {
-        "name": "Firebase",
-        "level": "45%"
+        "name": "Bootstrap",
+        "icon": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
       },
       {
-        "name": "Heroku",
-        "level": "40%"
+        "name": "React Bootstrap",
+        "icon": "https://cdn.worldvectorlogo.com/logos/react-1.svg"
       },
       {
-        "name": "Chrome Dev Tool",
-        "level": "70%"
+        "name": "Material UI",
+        "icon": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+      },
+      {
+        "name": "Next JS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "https://cdn.worldvectorlogo.com/logos/git-bash.svg"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "image": "amazon.png",
-        "projectTitle": "Amazon Tripmate",
-        "projectTools": "HTML5, Tailwind CSS, JavaScript",
-        "liveDemo": "https://amazon-store-phero.netlify.app/",
-        "github": "https://github.com/shadeshsaha/ranga-store-fix",
-        "category": "Vanila JS"
+        "id": 1,
+        "images": [
+          "https://i.ibb.co/h1jJL21/Cortex-Link.png",
+          "https://i.ibb.co/2yGc3pk/Cortex-Link1.png",
+          "https://i.ibb.co/ZXH25nV/Cortex-Link-3.png",
+          "https://i.ibb.co/cFqDkYz/Cortex-Link-4.png"
+        ],
+        "description": [
+          "Implemented a beautiful UI with React JS and Tailwind CSS",
+          "Implemented graph base of students's assignment numbers",
+          "Implemented chatting area UI",
+          "Implemented Authentication",
+          "and many more functionalites....."
+        ],
+        "projectTitle": "CortexLink School Website",
+        "projectTools": "React,Tailwind CSS,Plotly",
+        "liveDemo": "https://cortex-link-school-website-react.vercel.app",
+        "github": "https://github.com/19smabtahinoor/CortexLink-School-Website-React"
       },
       {
-        "image": "minister.png",
-        "projectTitle": "Famous Prime Minister In The World",
-        "projectTools": "JavaScript, React, React Routing, React Props, JSX, State, Hook, Custom API, React-Fontawesome, Netlify",
-        "liveDemo": "https://worlds-prime-minister.netlify.app/",
-        "github": "https://github.com/shadeshsaha/the-superhero-direction",
-        "category": "ReactJS"
+        "id": 2,
+        "images": [
+          "https://i.ibb.co/DfBqZN8/Programming-Hero.png",
+          "https://i.ibb.co/RBxt7th/Programming-Hero3.png",
+          "https://i.ibb.co/7W516RY/Programming-Hero4.png",
+          "https://i.ibb.co/3YrLGdD/Programming-Hero2.png"
+        ],
+        "description": [
+          "Implemented a beautiful UI with React JS and Tailwind CSS",
+          "Implemented  swiper slider",
+          "Implemented Authentication",
+          "and many more functionalites....."
+        ],
+        "projectTitle": "Programming Hero Clone",
+        "projectTools": "React,Tailwind CSS,Auth0",
+        "liveDemo": "https://programming-hero-clone-smabtahinoor.vercel.app/",
+        "github": "https://github.com/19smabtahinoor/Programming-hero-clone-react"
       },
       {
-        "image": "course-online.png",
-        "projectTitle": "Online Course Academy",
-        "projectTools": "React Bootstrap, Material UI, Tailwind, React Router, Custom Hook, Context API, Netlify",
-        "liveDemo": "https://online-course-academy.netlify.app/",
-        "github": "https://github.com/shadeshsaha/review-website",
-        "category": "ReactJS"
+        "id": 3,
+        "images": [
+          "https://i.ibb.co/1mb1KjQ/Travel-Solo.png",
+          "https://i.ibb.co/Y8jsPvm/Travel-Solo2.png",
+          "https://i.ibb.co/nDV59M0/Travel-Solo3.png",
+          "https://i.ibb.co/6F6BM3s/Travel-Solo4.png"
+        ],
+        "description": [
+          "Travel Solo is a tourism website to book different tourism places.",
+          "Implemented a cool ui with React JS and Tailwind CSS",
+          "Using Node JS to create REST API and Implemented to load tourism places data in the home page",
+          "Implemented User Authentication with Firebase Auth.",
+          "Implemented a dashboard where user can manage orders."
+        ],
+        "projectTitle": "Travel Solo",
+        "projectTools": "Javascript(ES6),React JS,Tailwind CSS,Firebase Auth, Node JS, Express,MongoDB etc.",
+        "liveDemo": "https://travel-solo-fa2d8.web.app/",
+        "github": "https://github.com/19smabtahinoor/Travel-Solo-Client"
       },
       {
-        "image": "yoga.png",
-        "projectTitle": "Kindness Yoga",
-        "projectTools": "CSS3, React, React Auth, React Private Route, Firebase Auth, Firebase Hosting",
-        "liveDemo": "https://kindness-yoga.web.app/",
-        "github": "https://github.com/shadeshsaha/healthcare-related-website",
-        "category": "ReactJS"
+        "id": 4,
+        "images": [
+          "https://i.ibb.co/86fQ5G3/Watch-Zone.png",
+          "https://i.ibb.co/TPp9t9j/Watch-Zone2.png",
+          "https://i.ibb.co/zXLjwTD/Watch-Zone3.png"
+        ],
+        "description": [
+          "Implemented an awesome ui with React JS and Tailwind CSS.",
+          "Implemented an awesome ui with React JS and Tailwind CSS.",
+          "Using Node JS to create REST API and Implemented to load watches in the home page and products page.",
+          "Implemented User Authentication with Firebase Auth.",
+          "Implemented a dashboard for users where he/she can see his/her orders and leave a review.",
+          "Implemented an admin dashboard where only admin can manage (add,delete,update) all user’s orders , manage all products , make another admin with email address etc.",
+          "Implemented a payment gateway for users."
+        ],
+        "projectTitle": "WatchZone",
+        "projectTools": "Javascript(ES6),React JS,Tailwind CSS,Firebase Auth, Node JS, Express,MongoDB etc.",
+        "liveDemo": "https://timekeeper-c2608.web.app/",
+        "github": "https://github.com/19smabtahinoor/WatchZone-Client"
       },
       {
-        "image": "bikers-paradise.png",
-        "projectTitle": "Bikers' Paradise",
-        "projectTools": "React, React Router, React Private Route, React Hook, Admin Panel, MongoDB, NodeJS, ExpressJS, Firebase Auth, Firebase Hosting",
-        "liveDemo": "https://bikers-paradise.web.app/",
-        "github": "https://github.com/shadeshsaha/niche-website-client-side",
-        "category": "Full-Stack(MERN)"
-      },
-      {
-        "image": "honda-cbr.png",
-        "projectTitle": "Honda CBR 300R",
-        "projectTools": "HTML5, Vanila CSS, Vanila JavaScript",
-        "liveDemo": "https://honda-cbr-4568.netlify.app/",
-        "github": "https://github.com/shadeshsaha/honda-cbr",
-        "category": "HTML5, CSS3"
-      },
-      {
-        "image": "apple-mac.png",
-        "projectTitle": "Apple MacBook Pro",
-        "projectTools": "HTML5, Vanila CSS, Vanila JS",
-        "liveDemo": "https://apple-i-mac-pro.netlify.app/",
-        "github": "https://github.com/shadeshsaha/mac-book-pro",
-        "category": "HTML5, CSS3"
-      },
-      {
-        "image": "responsive-football.png",
-        "projectTitle": "Responsive Football Website",
-        "projectTools": "HTML5, Vanila CSS",
-        "liveDemo": "https://shadeshsaha.github.io/responsive-football/",
-        "github": "https://github.com/shadeshsaha/responsive-football",
-        "category": "HTML5, CSS3"
+        "id": 5,
+        "images": [
+          "https://i.ibb.co/3SH12g3/Red-Onion-Restau.png",
+          "https://i.ibb.co/Jv193Qq/Red-Onion-Restau2.png",
+          "https://i.ibb.co/0MrfyC9/Red-Onion3.png",
+          "https://i.ibb.co/0jnnDDT/Red-Onion4.png"
+        ],
+        "description": [
+          "Red Onion Restaurant is a restaurant website where you can order different kinds of foods..",
+          "Implemented an awesome user interface with React JS and Tailwind CSS..",
+          "Implemented User Authentication with Firebase Auth.",
+          "Implemented a thing where users add their delivery details and then they can place their orders.",
+          "Implemented increase order quantity.",
+          "Many other features that you can see from the live site."
+        ],
+        "projectTitle": "Red Onion",
+        "projectTools": "Javascript(ES6), React JS, Tailwind CSS,Firebase Auth etc.",
+        "liveDemo": "https://red-onion-restaurant-41dbe.web.app/",
+        "github": "https://github.com/19smabtahinoor/Red-Onion-ReactJS"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "No doubt you're a great person. You have a strong command of your skills too. Whenever I need your help during development days, you're there with me. I had solved too many critical problems with you and realized you're the very understandable person I've ever met. I will definitely work with you in the future. See you soon buddy",
-        "user": "Mostofa Kabir, Dhaka, Bangladesh"
+        "text": "No doubt you're a great person. You have strong command on your skills too. I will definitely work with you in future.",
+        "user": "Asif,Pakistan"
       },
       {
-        "text": "Shadesh, you did a great job. You're continuously communicated with me during the development days to make sure we on the same page. Excellent communication and development skills you have. You've delivered well-organized and clean code to me. I will definitely use his service again in the future. Best of luck.",
-        "user": "Zahidul Islam, Dhaka, Bangladesh"
+        "text": "@Abtahi did a great job.He continuously communicated with me during the development process to make sure we on the same page.Excellent communication and development work.He delivered well organized and clean code.I will definitely use his service again in the future",
+        "user": "preet395,United States"
       }
     ]
   }
